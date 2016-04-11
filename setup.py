@@ -4,7 +4,7 @@ if __name__ == '__main__':
     setup(
         name='utlts',
         packages=find_packages(),
-        version='0.1.1',
+        version='0.1.2',
         description='Utility functions functions.',
         long_description='',
         url='https://github.com/asalomatov/utlts',
@@ -20,12 +20,8 @@ if __name__ == '__main__':
             'Topic :: Scientific/Engineering :: Bio-Informatics',
             ],
         install_requires=[
-            'pandas>=0.17',
-            'numpy',
-            'pysam>=0.8.3',
-            'collections',
-            'subprocces',
-            'tempfile',
-            'glob'
+            'pandas>=0.17.1',
+            'numpy>=1.10.2',
+            'pysam>=0.8.3'
         ],
 )
