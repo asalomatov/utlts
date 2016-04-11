@@ -4,7 +4,7 @@ if __name__ == '__main__':
     setup(
         name='utlts',
         packages=find_packages(),
-        version='0.1.0',
+        version='0.1.1',
         description='Utility functions functions.',
         long_description='',
         url='https://github.com/asalomatov/utlts',
