@@ -26,7 +26,6 @@ if __name__ == '__main__':
             'collections',
             'subprocces',
             'tempfile',
-            'errno',
-            'glob',
+            'glob'
         ],
 )
