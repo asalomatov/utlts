@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 if __name__ == '__main__':
     setup(
         name='utlts',
-        packages=find_packages(),
-        version='0.1.3',
+        packages=find_packages(where='utlst'),
+        version='0.1.4',
         description='Utility functions.',
         long_description='',
         url='https://github.com/asalomatov/utlts',
